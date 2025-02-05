@@ -1,1 +1,21 @@
-node_modules
+# Ignore node_modules
+node_modules/
+
+# Ignore .env files (API keys, secrets, etc.)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore OS-specific files (e.g., macOS .DS_Store)
+.DS_Store
+
+# Ignore IDE-specific files (e.g., Visual Studio Code)
+.vscode/
+
+# Ignore npm debug log
+npm-debug.log
